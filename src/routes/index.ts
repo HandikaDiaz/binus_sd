@@ -1,8 +1,8 @@
 import express from "express"
-import RouterBook from "./product/product"
+import RouterProduct from "./product/product"
 
 const MainRouter = express.Router()
 
-MainRouter.use("/product", RouterBook)
+MainRouter.use("/product", RouterProduct)
 
 export default MainRouter
